@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #C24F4F;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-back {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: bold;
+        position: absolute;
+        left: 10px;
+        top: 16px;
+        cursor: pointer;
+    }
+
+    &-title {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

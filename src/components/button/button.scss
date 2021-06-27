@@ -1,0 +1,64 @@
+.appButton {
+    border: none;
+    background-color: #C24F4F;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        opacity: .9;
+        transition: .4s;
+    }
+
+    &--small {
+        font-size: 12px;
+        height: 34px;
+        padding: 6px 16px;
+        border-radius: 6px;
+    }
+
+    &--medium {
+        font-size: 16px;
+        height: 40px;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+
+    &--large {
+        font-size: 20px;
+        height: 46px;
+        padding: 12px 26px;
+        border-radius: 10px;
+    }
+
+    &--outlined {
+        border: 2px solid #C24F4F;
+        background-color: #FFF;
+        color: #C24F4F;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .appButton {
+        &--small {
+            font-size: 10px;
+            height: 28px;
+            padding: 6px 16px;
+            border-radius: 6px;
+        }
+    
+        &--medium {
+            font-size: 12px;
+            height: 32px;
+            padding: 10px 10px;
+            border-radius: 8px;
+        }
+    
+        &--large {
+            font-size: 24px;
+            height: 36px;
+            padding: 12px 26px;
+            border-radius: 10px;
+        }
+    }
+}
